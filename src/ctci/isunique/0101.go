@@ -11,7 +11,6 @@
 //
 
 // Note:
-
 // 0 <= len(s) <= 100
 package isunique
 
@@ -25,7 +24,6 @@ func isUnique(astr string) bool {
 			return false
 		}
 		num = num | (1 << moveBit)
-
 	}
 	return true
 }
